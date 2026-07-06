@@ -1,0 +1,50 @@
+{
+  "$schema": "https://skills.sh/schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Virtualmin Server Management",
+      "description": "Skills for managing Virtualmin web hosting servers",
+      "skills": [
+        "virtualmin-backup",
+        "virtualmin-domains",
+        "virtualmin-server"
+      ]
+    },
+    {
+      "title": "Virtualmin Users & Access",
+      "description": "Skills for managing users, resellers, and permissions",
+      "skills": [
+        "virtualmin-users",
+        "virtualmin-resellers"
+      ]
+    },
+    {
+      "title": "Virtualmin Services",
+      "description": "Skills for managing web services, databases, mail, DNS, SSL",
+      "skills": [
+        "virtualmin-databases",
+        "virtualmin-mail",
+        "virtualmin-dns",
+        "virtualmin-ssl",
+        "virtualmin-php",
+        "virtualmin-webapps"
+      ]
+    },
+    {
+      "title": "Virtualmin Configuration",
+      "description": "Skills for templates, plans, and server config",
+      "skills": [
+        "virtualmin-templates",
+        "virtualmin-other"
+      ]
+    },
+    {
+      "title": "Virtualmin Cloud Storage",
+      "description": "Skills for S3, Rackspace, and cloud integrations",
+      "skills": [
+        "virtualmin-cloud"
+      ]
+    }
+  ]
+}

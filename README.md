@@ -1,34 +1,45 @@
 # virtualmin-skills
 
-A collection of shell skills for managing [Virtualmin](https://www.virtualmin.com/) — the open-source web hosting control panel built on Webmin.
+A complete collection of AI agent skills and shell scripts for managing [Virtualmin](https://www.virtualmin.com/) — the open-source web hosting control panel.
 
-Each skill is a self-contained bash script covering a specific Virtualmin CLI category. Designed to be uploaded to [skills.sh](https://skills.sh).
+## Install
 
-## Categories
+```bash
+npx skills add tranmani/virtualmin-skills
+```
 
-| Folder | Description |
-|---|---|
-| `domains/` | Create, list, modify, delete virtual servers |
-| `backup/` | Backup and restore domains |
-| `users/` | Mail, FTP, and database user management |
-| `ssl/` | SSL certificate management and Let's Encrypt |
-| `dns/` | DNS record management |
-| `mail/` | Mail aliases, forwarding, spam settings |
-| `databases/` | MySQL/PostgreSQL database management |
-| `server/` | Server status, config checks, restarts |
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| `virtualmin-backup` | Backup and restore virtual servers |
+| `virtualmin-domains` | Create, modify, clone and manage domains |
+| `virtualmin-users` | Mail/FTP users and aliases |
+| `virtualmin-mail` | Mail settings, spam, connectivity tests |
+| `virtualmin-databases` | MySQL/PostgreSQL database management |
+| `virtualmin-ssl` | SSL certificates and Let's Encrypt |
+| `virtualmin-dns` | DNS records and DKIM |
+| `virtualmin-php` | PHP versions and php.ini settings |
+| `virtualmin-server` | Server status, config, and services |
+| `virtualmin-webapps` | WordPress, Drupal, and other web apps |
+| `virtualmin-templates` | Server templates and account plans |
+| `virtualmin-resellers` | Reseller accounts and resource limits |
+| `virtualmin-cloud` | Amazon S3 and Rackspace storage |
+| `virtualmin-other` | Proxies, license, logs, plugins, and more |
+
+## Structure
+
+Each skill contains:
+- `SKILL.md` — AI agent instructions with command reference
+- `scripts/` — Bash scripts for each Virtualmin CLI command
 
 ## Requirements
 
 - Virtualmin installed (`/usr/sbin/virtualmin`)
-- Must run as root or via `sudo`
-
-## Usage
-
-Each script can be run directly or sourced as a reference:
-```bash
-sudo bash domains/list-domains.sh
-```
+- Run scripts as root or via `sudo`
 
 ## Author
 
-tranmani — [github.com/tranmani](https://github.com/tranmani)
+tranmani — [github.com/tranmani](https://github.com/tranmani)  
+Email: minhhuy8137@gmail.com  
+Docs: [virtualmin.com/docs/development/api-programs/](https://www.virtualmin.com/docs/development/api-programs/)
