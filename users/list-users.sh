@@ -3,6 +3,7 @@
 # Description: List mail, FTP and database users for a domain or all domains
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash list-users.sh --domain example.com [--name-only] [--email-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-users/
 
 set -euo pipefail
 

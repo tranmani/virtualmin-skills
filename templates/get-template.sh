@@ -3,6 +3,7 @@
 # Description: Output all settings in a virtual server template
 # skills.sh: virtualmin, templates, hosting
 # Usage: sudo bash get-template.sh --name mytemplate
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/get-template/
 
 set -euo pipefail
 

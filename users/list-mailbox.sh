@@ -3,6 +3,7 @@
 # Description: List emails in a user's mailbox
 # skills.sh: virtualmin, users, mail, hosting
 # Usage: sudo bash list-mailbox.sh --domain example.com --user john
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-mailbox/
 
 set -euo pipefail
 

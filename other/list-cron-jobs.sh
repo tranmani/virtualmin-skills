@@ -3,6 +3,7 @@
 # Description: List cron jobs configured for a virtual server's Unix user
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash list-cron-jobs.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-cron-jobs/
 
 set -euo pipefail
 

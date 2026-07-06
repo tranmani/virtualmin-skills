@@ -3,6 +3,7 @@
 # Description: Search Postfix mail logs for messages matching criteria
 # skills.sh: virtualmin, mail, hosting
 # Usage: sudo bash search-maillogs.sh --from sender@example.com [--to dest@example.com] [--domain example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/search-maillogs/
 
 set -euo pipefail
 

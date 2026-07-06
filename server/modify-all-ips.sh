@@ -3,6 +3,7 @@
 # Description: Update the IP address for all virtual servers (useful after server IP change)
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash modify-all-ips.sh --ip 1.2.3.4 --old-ip 9.8.7.6
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-all-ips/
 
 set -euo pipefail
 

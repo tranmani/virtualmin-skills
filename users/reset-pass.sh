@@ -3,6 +3,7 @@
 # Description: Reset a domain owner or user password and send notification email
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash reset-pass.sh --domain example.com [--user john]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/reset-pass/
 
 set -euo pipefail
 

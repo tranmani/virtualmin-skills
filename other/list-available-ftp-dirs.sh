@@ -3,6 +3,7 @@
 # Description: List FTP-accessible directories for a virtual server
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash list-available-ftp-dirs.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-available-ftp-dirs/
 
 set -euo pipefail
 

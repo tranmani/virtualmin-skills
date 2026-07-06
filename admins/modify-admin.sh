@@ -3,6 +3,7 @@
 # Description: Modify an extra administrator's settings for a virtual server
 # skills.sh: virtualmin, admins, hosting
 # Usage: sudo bash modify-admin.sh --domain example.com --name admin2 --pass newpass
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-admin/
 
 set -euo pipefail
 

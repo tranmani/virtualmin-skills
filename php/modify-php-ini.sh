@@ -3,6 +3,7 @@
 # Description: Set a PHP ini configuration value for a domain
 # skills.sh: virtualmin, php, hosting
 # Usage: sudo bash modify-php-ini.sh --domain example.com --ini upload_max_filesize --value 64M
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-php-ini/
 
 set -euo pipefail
 

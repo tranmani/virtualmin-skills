@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, server, config, hosting
 # Usage: sudo bash check-config.sh [--fix]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/check-config/
 
 set -euo pipefail
 

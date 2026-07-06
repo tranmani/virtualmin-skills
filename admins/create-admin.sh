@@ -3,6 +3,7 @@
 # Description: Create an extra administrator for a virtual server
 # skills.sh: virtualmin, admins, hosting
 # Usage: sudo bash create-admin.sh --domain example.com --name admin2 --pass secret --email admin2@example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-admin/
 
 set -euo pipefail
 

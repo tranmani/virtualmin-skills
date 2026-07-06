@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, dns, hosting
 # Usage: sudo bash get-dns.sh --domain example.com [--type A|MX|TXT|CNAME]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/get-dns/
 
 set -euo pipefail
 

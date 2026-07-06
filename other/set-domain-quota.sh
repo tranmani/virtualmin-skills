@@ -3,6 +3,7 @@
 # Description: Set the disk quota for a virtual server
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash set-domain-quota.sh --domain example.com --quota 5000
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/set-domain-quota/
 
 set -euo pipefail
 

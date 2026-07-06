@@ -3,6 +3,7 @@
 # Description: Convert an alias domain into a full sub-server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash unalias-domain.sh --domain alias.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/unalias-domain/
 
 set -euo pipefail
 

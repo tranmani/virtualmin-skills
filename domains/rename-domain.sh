@@ -3,6 +3,7 @@
 # Description: Change the domain name, home directory or username of a virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash rename-domain.sh --domain old.com --newdomain new.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/rename-domain/
 
 set -euo pipefail
 

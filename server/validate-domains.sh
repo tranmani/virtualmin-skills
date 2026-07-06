@@ -3,6 +3,7 @@
 # Description: Check configuration of all virtual servers and report issues
 # skills.sh: virtualmin, server, config, hosting
 # Usage: sudo bash validate-domains.sh [--domain example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/validate-domains/
 
 set -euo pipefail
 

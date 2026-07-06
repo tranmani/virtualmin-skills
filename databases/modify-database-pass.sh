@@ -3,6 +3,7 @@
 # Description: Change the MySQL password for a virtual server's database user
 # skills.sh: virtualmin, databases, hosting
 # Usage: sudo bash modify-database-pass.sh --domain example.com --pass newpassword
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-database-pass/
 
 set -euo pipefail
 

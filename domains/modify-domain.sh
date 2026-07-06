@@ -3,6 +3,7 @@
 # Description: Change parameters of a Virtualmin virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash modify-domain.sh --domain example.com --quota 5000 --bandwidth 50000
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-domain/
 
 set -euo pipefail
 

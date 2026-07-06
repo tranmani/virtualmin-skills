@@ -3,6 +3,7 @@
 # Description: Create a mail alias (or catch-all with --from "*") for a domain
 # skills.sh: virtualmin, aliases, mail, hosting
 # Usage: sudo bash create-alias.sh --domain example.com --from sales --to joe@example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-alias/
 
 set -euo pipefail
 

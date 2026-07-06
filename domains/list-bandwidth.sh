@@ -3,6 +3,7 @@
 # Description: Show bandwidth usage for domains over a date range
 # skills.sh: virtualmin, domains, monitoring, hosting
 # Usage: sudo bash list-bandwidth.sh [--domain example.com] [--month 2026-07]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-bandwidth/
 
 set -euo pipefail
 

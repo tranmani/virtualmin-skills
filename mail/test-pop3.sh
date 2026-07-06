@@ -3,6 +3,7 @@
 # Description: Test POP3 connectivity and login for a mailbox
 # skills.sh: virtualmin, mail, hosting
 # Usage: sudo bash test-pop3.sh --domain example.com --user user@example.com --pass secret
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/test-pop3/
 
 set -euo pipefail
 

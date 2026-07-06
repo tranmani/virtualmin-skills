@@ -3,6 +3,7 @@
 # Description: List all reseller accounts on this Virtualmin system
 # skills.sh: virtualmin, resellers, hosting
 # Usage: sudo bash list-resellers.sh [--name-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-resellers/
 
 set -euo pipefail
 

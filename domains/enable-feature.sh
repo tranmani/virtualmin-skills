@@ -3,6 +3,7 @@
 # Description: Turn on a feature (web, mail, dns, mysql, ssl, etc.) for a virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash enable-feature.sh --domain example.com --feature ssl
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/enable-feature/
 
 set -euo pipefail
 

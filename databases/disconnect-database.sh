@@ -3,6 +3,7 @@
 # Description: Unlink a database from a virtual server without deleting it
 # skills.sh: virtualmin, databases, hosting
 # Usage: sudo bash disconnect-database.sh --domain example.com --name mydb --type mysql
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/disconnect-database/
 
 set -euo pipefail
 

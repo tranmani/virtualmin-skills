@@ -3,6 +3,7 @@
 # Description: Execute a raw Virtualmin API command with arbitrary arguments
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash run-api-command.sh --command list-domains --multiline
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/run-api-command/
 
 set -euo pipefail
 

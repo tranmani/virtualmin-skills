@@ -3,6 +3,7 @@
 # Description: Delete a previously logged backup record
 # skills.sh: virtualmin, backup, hosting
 # Usage: sudo bash delete-backup.sh --id <backup-id>
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-backup/
 
 set -euo pipefail
 

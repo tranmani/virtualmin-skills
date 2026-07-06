@@ -3,6 +3,7 @@
 # Description: Delete an entire Amazon S3 bucket and all its contents
 # skills.sh: virtualmin, s3, hosting
 # Usage: sudo bash delete-s3-bucket.sh --account myaccount --bucket mybucket
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-s3-bucket/
 
 set -euo pipefail
 

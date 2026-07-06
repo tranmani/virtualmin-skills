@@ -3,6 +3,7 @@
 # Description: Remove a proxy path from a virtual server
 # skills.sh: virtualmin, proxies, hosting
 # Usage: sudo bash delete-proxy.sh --domain example.com --path /app
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-proxy/
 
 set -euo pipefail
 

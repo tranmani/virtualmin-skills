@@ -3,6 +3,7 @@
 # Description: Download a file from a Rackspace Cloud Files container
 # skills.sh: virtualmin, rackspace, hosting
 # Usage: sudo bash download-rs-file.sh --account myaccount --container mycontainer --file backup.tar.gz --dest /tmp/
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/download-rs-file/
 
 set -euo pipefail
 

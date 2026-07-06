@@ -3,6 +3,7 @@
 # Description: Set Unix quotas for a domain to match Virtualmin configuration
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash fix-domain-quota.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/fix-domain-quota/
 
 set -euo pipefail
 

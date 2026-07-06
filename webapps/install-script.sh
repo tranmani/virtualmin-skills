@@ -3,6 +3,7 @@
 # Description: Install a web app script (WordPress, phpMyAdmin, etc.) into a domain
 # skills.sh: virtualmin, webapps, hosting
 # Usage: sudo bash install-script.sh --domain example.com --type wordpress --version latest --path /blog
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/install-script/
 
 set -euo pipefail
 

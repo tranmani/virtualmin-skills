@@ -3,6 +3,7 @@
 # Description: Test IMAP connectivity and login for a mailbox
 # skills.sh: virtualmin, mail, hosting
 # Usage: sudo bash test-imap.sh --domain example.com --user user@example.com --pass secret
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/test-imap/
 
 set -euo pipefail
 

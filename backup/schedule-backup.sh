@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, backup, hosting
 # Usage: sudo bash schedule-backup.sh --dest /mnt/data/backups --interval daily|weekly
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/schedule-backup/
 
 set -euo pipefail
 

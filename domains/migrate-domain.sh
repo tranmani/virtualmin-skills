@@ -3,6 +3,7 @@
 # Description: Import a virtual server from another control panel (cPanel, Plesk, etc.)
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash migrate-domain.sh --source /path/to/backup.tar.gz --type cpanel --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/migrate-domain/
 
 set -euo pipefail
 

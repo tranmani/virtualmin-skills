@@ -3,6 +3,7 @@
 # Description: Set correct permissions on a domain's home directory
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash fix-domain-permissions.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/fix-domain-permissions/
 
 set -euo pipefail
 

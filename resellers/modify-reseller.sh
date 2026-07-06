@@ -3,6 +3,7 @@
 # Description: Modify a reseller account's settings and limits
 # skills.sh: virtualmin, resellers, hosting
 # Usage: sudo bash modify-reseller.sh --name reseller1 --max-doms 10
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-reseller/
 
 set -euo pipefail
 

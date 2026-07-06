@@ -3,6 +3,7 @@
 # Description: List per-directory PHP version overrides for a domain
 # skills.sh: virtualmin, php, hosting
 # Usage: sudo bash list-php-directories.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-php-directories/
 
 set -euo pipefail
 

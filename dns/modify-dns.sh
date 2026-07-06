@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, dns, hosting
 # Usage: sudo bash modify-dns.sh --domain example.com --action add --type A --name sub --value 1.2.3.4
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-dns/
 
 set -euo pipefail
 

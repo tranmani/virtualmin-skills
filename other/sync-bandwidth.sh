@@ -3,6 +3,7 @@
 # Description: Manually trigger bandwidth usage collection for all virtual servers
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash sync-bandwidth.sh [--domain example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/sync-bandwidth/
 
 set -euo pipefail
 

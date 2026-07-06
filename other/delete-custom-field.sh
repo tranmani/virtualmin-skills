@@ -3,6 +3,7 @@
 # Description: Remove a custom field definition from Virtualmin
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash delete-custom-field.sh --name "Customer ID"
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-custom-field/
 
 set -euo pipefail
 

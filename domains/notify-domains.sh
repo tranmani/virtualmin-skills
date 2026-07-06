@@ -3,6 +3,7 @@
 # Description: Send signup/notification email to virtual server owners
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash notify-domains.sh [--domain example.com | --all-domains]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/notify-domains/
 
 set -euo pipefail
 

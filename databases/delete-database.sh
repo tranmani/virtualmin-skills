@@ -3,6 +3,7 @@
 # Description: Delete a MySQL or PostgreSQL database from a virtual server
 # skills.sh: virtualmin, databases, hosting
 # Usage: sudo bash delete-database.sh --domain example.com --name mydb --type mysql
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-database/
 
 set -euo pipefail
 

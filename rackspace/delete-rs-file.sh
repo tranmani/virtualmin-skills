@@ -3,6 +3,7 @@
 # Description: Delete a single file from a Rackspace Cloud Files container
 # skills.sh: virtualmin, rackspace, hosting
 # Usage: sudo bash delete-rs-file.sh --account myaccount --container mycontainer --file oldbackup.tar.gz
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-rs-file/
 
 set -euo pipefail
 

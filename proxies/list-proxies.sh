@@ -3,6 +3,7 @@
 # Description: List proxy paths configured for a virtual server
 # skills.sh: virtualmin, proxies, hosting
 # Usage: sudo bash list-proxies.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-proxies/
 
 set -euo pipefail
 

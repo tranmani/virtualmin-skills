@@ -3,6 +3,7 @@
 # Description: Start or stop a web app script's background process (e.g. Ruby, Node)
 # skills.sh: virtualmin, webapps, hosting
 # Usage: sudo bash start-stop-script.sh --domain example.com --type rails --action start|stop
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/start-stop-script/
 
 set -euo pipefail
 

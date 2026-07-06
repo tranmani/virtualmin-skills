@@ -3,6 +3,7 @@
 # Description: Disable a specific resource limit for a virtual server
 # skills.sh: virtualmin, limits, hosting
 # Usage: sudo bash disable-limit.sh --domain example.com --limit mailboxes
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/disable-limit/
 
 set -euo pipefail
 

@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, ssl, hosting
 # Usage: sudo bash list-cert-expiry.sh [--domain example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-cert-expiry/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Remove an existing account plan from Virtualmin
 # skills.sh: virtualmin, plans, hosting
 # Usage: sudo bash delete-plan.sh --name "Basic Plan"
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-plan/
 
 set -euo pipefail
 

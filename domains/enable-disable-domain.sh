@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash enable-disable-domain.sh --domain example.com --action enable|disable
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/enable-disable-domain/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Run Virtualmin's system configuration check and auto-fix wizard
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash config-system.sh [--fix]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/config-system/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Remove an installed web app script from a domain
 # skills.sh: virtualmin, webapps, hosting
 # Usage: sudo bash delete-script.sh --domain example.com --type wordpress --path /blog
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-script/
 
 set -euo pipefail
 

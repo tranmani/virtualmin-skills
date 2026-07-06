@@ -3,6 +3,7 @@
 # Description: Duplicate an existing virtual server with a new domain name
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash clone-domain.sh --domain source.com --newdomain clone.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/clone-domain/
 
 set -euo pipefail
 

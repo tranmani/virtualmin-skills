@@ -3,6 +3,7 @@
 # Description: Remove a virtual server template
 # skills.sh: virtualmin, templates, hosting
 # Usage: sudo bash delete-template.sh --name mytemplate
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-template/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: List all S3 buckets for a Virtualmin S3 account
 # skills.sh: virtualmin, s3, hosting
 # Usage: sudo bash list-s3-buckets.sh --account myaccount
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-s3-buckets/
 
 set -euo pipefail
 

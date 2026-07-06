@@ -3,6 +3,7 @@
 # Description: Create a new Amazon S3 bucket via Virtualmin
 # skills.sh: virtualmin, s3, backup, hosting
 # Usage: sudo bash create-s3-bucket.sh --account myaccount --bucket mybucket
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-s3-bucket/
 
 set -euo pipefail
 

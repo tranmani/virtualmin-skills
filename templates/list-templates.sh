@@ -3,6 +3,7 @@
 # Description: List all available virtual server templates
 # skills.sh: virtualmin, templates, hosting
 # Usage: sudo bash list-templates.sh [--name-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-templates/
 
 set -euo pipefail
 

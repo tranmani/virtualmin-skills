@@ -3,6 +3,7 @@
 # Description: Update the Virtualmin license key from the license server
 # skills.sh: virtualmin, license, hosting
 # Usage: sudo bash update-license.sh [--serial XXXXX] [--key XXXXX]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/update-license/
 
 set -euo pipefail
 

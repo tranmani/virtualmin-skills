@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, backup, hosting
 # Usage: sudo bash restore-domain.sh --file /mnt/data/backups/example.com.tar.gz --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/restore-domain/
 
 set -euo pipefail
 

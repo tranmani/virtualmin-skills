@@ -3,6 +3,7 @@
 # Description: List files in a Rackspace Cloud Files container
 # skills.sh: virtualmin, rackspace, hosting
 # Usage: sudo bash list-rs-files.sh --account myaccount --container mycontainer
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-rs-files/
 
 set -euo pipefail
 

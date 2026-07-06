@@ -3,6 +3,7 @@
 # Description: Install a new Virtualmin license from the Virtualmin store
 # skills.sh: virtualmin, license, hosting
 # Usage: sudo bash install-license.sh --serial 12345 --key ABCDE
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/install-license/
 
 set -euo pipefail
 

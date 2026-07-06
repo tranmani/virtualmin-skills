@@ -3,6 +3,7 @@
 # Description: Link an existing unowned database to a virtual server
 # skills.sh: virtualmin, databases, hosting
 # Usage: sudo bash import-database.sh --domain example.com --name existing_db --type mysql
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/import-database/
 
 set -euo pipefail
 

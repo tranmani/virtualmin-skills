@@ -3,6 +3,7 @@
 # Description: Install an existing SSL certificate and key for a domain
 # skills.sh: virtualmin, ssl, hosting
 # Usage: sudo bash install-cert.sh --domain example.com --cert /path/cert.pem --key /path/key.pem
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/install-cert/
 
 set -euo pipefail
 

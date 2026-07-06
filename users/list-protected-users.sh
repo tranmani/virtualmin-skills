@@ -3,6 +3,7 @@
 # Description: List users with access to password-protected directories
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash list-protected-users.sh --domain example.com --dir /private
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-protected-users/
 
 set -euo pipefail
 

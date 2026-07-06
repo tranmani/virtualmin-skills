@@ -3,6 +3,7 @@
 # Description: Reset a virtual server feature back to its default configuration
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash reset-feature.sh --domain example.com --feature web
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/reset-feature/
 
 set -euo pipefail
 

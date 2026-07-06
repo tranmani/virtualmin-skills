@@ -3,6 +3,7 @@
 # Description: Add a web redirect or alias to a domain
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash create-redirect.sh --domain example.com --path /old --dest https://new.example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-redirect/
 
 set -euo pipefail
 

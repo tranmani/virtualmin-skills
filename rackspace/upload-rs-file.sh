@@ -3,6 +3,7 @@
 # Description: Upload a file to a Rackspace Cloud Files container
 # skills.sh: virtualmin, rackspace, hosting
 # Usage: sudo bash upload-rs-file.sh --account myaccount --container mycontainer --file /path/to/file.tar.gz
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/upload-rs-file/
 
 set -euo pipefail
 

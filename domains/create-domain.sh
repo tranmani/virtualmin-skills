@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash create-domain.sh --domain example.com --user myuser --pass secret --email admin@example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-domain/
 
 set -euo pipefail
 

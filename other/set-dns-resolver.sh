@@ -3,6 +3,7 @@
 # Description: Configure DNS resolver addresses used by the Virtualmin server
 # skills.sh: virtualmin, other, dns, hosting
 # Usage: sudo bash set-dns-resolver.sh --nameserver 8.8.8.8 --nameserver 8.8.4.4
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/set-dns-resolver/
 
 set -euo pipefail
 

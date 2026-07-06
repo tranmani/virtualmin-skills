@@ -3,6 +3,7 @@
 # Description: List web app scripts installed on a domain
 # skills.sh: virtualmin, webapps, hosting
 # Usage: sudo bash list-scripts.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-scripts/
 
 set -euo pipefail
 

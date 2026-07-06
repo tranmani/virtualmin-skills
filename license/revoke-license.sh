@@ -3,6 +3,7 @@
 # Description: Revoke the current Virtualmin license and revert to GPL mode
 # skills.sh: virtualmin, license, hosting
 # Usage: sudo bash revoke-license.sh
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/revoke-license/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Enable or disable a feature globally for all new virtual servers
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash set-global-feature.sh --feature dns --enable
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/set-global-feature/
 
 set -euo pipefail
 

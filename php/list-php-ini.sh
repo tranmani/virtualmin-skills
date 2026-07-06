@@ -3,6 +3,7 @@
 # Description: List PHP ini settings for a domain
 # skills.sh: virtualmin, php, hosting
 # Usage: sudo bash list-php-ini.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-php-ini/
 
 set -euo pipefail
 

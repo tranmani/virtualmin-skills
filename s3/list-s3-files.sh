@@ -3,6 +3,7 @@
 # Description: List files in an Amazon S3 bucket
 # skills.sh: virtualmin, s3, hosting
 # Usage: sudo bash list-s3-files.sh --account myaccount --bucket mybucket
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-s3-files/
 
 set -euo pipefail
 

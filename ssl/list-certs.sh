@@ -3,6 +3,7 @@
 # Description: List SSL certificates for all or specific domains
 # skills.sh: virtualmin, ssl, hosting
 # Usage: sudo bash list-certs.sh [--domain example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-certs/
 
 set -euo pipefail
 

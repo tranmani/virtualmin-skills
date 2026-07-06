@@ -3,6 +3,7 @@
 # Description: Show disk quota usage for a specific virtual server
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash get-domain-quota.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/get-domain-quota/
 
 set -euo pipefail
 

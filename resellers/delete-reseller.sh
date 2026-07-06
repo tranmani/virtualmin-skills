@@ -3,6 +3,7 @@
 # Description: Delete a reseller account from Virtualmin
 # skills.sh: virtualmin, resellers, hosting
 # Usage: sudo bash delete-reseller.sh --name reseller1
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-reseller/
 
 set -euo pipefail
 

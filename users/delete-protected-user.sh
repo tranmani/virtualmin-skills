@@ -3,6 +3,7 @@
 # Description: Remove a user from a password-protected directory
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash delete-protected-user.sh --domain example.com --user john --dir /private
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-protected-user/
 
 set -euo pipefail
 

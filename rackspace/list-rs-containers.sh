@@ -3,6 +3,7 @@
 # Description: List all Rackspace Cloud Files containers for an account
 # skills.sh: virtualmin, rackspace, hosting
 # Usage: sudo bash list-rs-containers.sh --account myaccount
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-rs-containers/
 
 set -euo pipefail
 

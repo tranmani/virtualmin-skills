@@ -3,6 +3,7 @@
 # Description: Run Webalizer web stats generation for all virtual servers
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash run-all-webalizer.sh [--domain example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/run-all-webalizer/
 
 set -euo pipefail
 

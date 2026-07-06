@@ -3,6 +3,7 @@
 # Description: Remove an external IP to internal IP mapping
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash delete-ip-mapping.sh --ip 1.2.3.4
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-ip-mapping/
 
 set -euo pipefail
 

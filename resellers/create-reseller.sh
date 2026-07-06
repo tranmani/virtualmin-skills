@@ -3,6 +3,7 @@
 # Description: Create a reseller account with optional resource limits and permissions
 # skills.sh: virtualmin, resellers, hosting
 # Usage: sudo bash create-reseller.sh --name reseller1 --pass secret --email reseller1@example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-reseller/
 
 set -euo pipefail
 

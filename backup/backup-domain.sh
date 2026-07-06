@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, backup, hosting
 # Usage: sudo bash backup-domain.sh --dest /mnt/data/backups [--domain example.com | --all]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/backup-domain/
 
 set -euo pipefail
 

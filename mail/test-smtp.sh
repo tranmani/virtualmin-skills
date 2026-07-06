@@ -3,6 +3,7 @@
 # Description: Test SMTP delivery for a virtual server's mail configuration
 # skills.sh: virtualmin, mail, hosting
 # Usage: sudo bash test-smtp.sh --domain example.com --user user@example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/test-smtp/
 
 set -euo pipefail
 

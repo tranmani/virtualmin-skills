@@ -3,6 +3,7 @@
 # Description: List simple mail forwarding aliases for a domain
 # skills.sh: virtualmin, aliases, mail, hosting
 # Usage: sudo bash list-simple-aliases.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-simple-aliases/
 
 set -euo pipefail
 

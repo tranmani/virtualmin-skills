@@ -3,6 +3,7 @@
 # Description: Apply a configuration change to all virtual servers at once
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash mass-update-domains.sh --all-domains --dns --fix-now
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/mass-update-domains/
 
 set -euo pipefail
 

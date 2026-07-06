@@ -3,6 +3,7 @@
 # Description: Create a simple mail forwarding alias without full alias features
 # skills.sh: virtualmin, aliases, mail, hosting
 # Usage: sudo bash create-simple-alias.sh --domain example.com --from info --to admin@example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-simple-alias/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Change web server configuration for a virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash modify-web.sh --domain example.com --php-mode fpm
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-web/
 
 set -euo pipefail
 

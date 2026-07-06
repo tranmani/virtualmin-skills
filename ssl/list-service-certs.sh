@@ -3,6 +3,7 @@
 # Description: Show which services are using SSL certificates from a virtual server
 # skills.sh: virtualmin, ssl, hosting
 # Usage: sudo bash list-service-certs.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-service-certs/
 
 set -euo pipefail
 

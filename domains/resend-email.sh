@@ -3,6 +3,7 @@
 # Description: Re-send the signup email for a virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash resend-email.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/resend-email/
 
 set -euo pipefail
 

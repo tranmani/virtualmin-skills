@@ -3,6 +3,7 @@
 # Description: Modify an existing account plan's resource limits
 # skills.sh: virtualmin, plans, hosting
 # Usage: sudo bash modify-plan.sh --name "Basic Plan" --max-mailboxes 20
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-plan/
 
 set -euo pipefail
 

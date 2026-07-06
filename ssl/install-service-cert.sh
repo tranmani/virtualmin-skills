@@ -3,6 +3,7 @@
 # Description: Copy SSL cert from a virtual server to another service (postfix, dovecot, webmin)
 # skills.sh: virtualmin, ssl, hosting
 # Usage: sudo bash install-service-cert.sh --domain example.com --service postfix
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/install-service-cert/
 
 set -euo pipefail
 

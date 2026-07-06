@@ -3,6 +3,7 @@
 # Description: Install a Virtualmin plugin from a URL or file
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash install-plugin.sh --source /path/to/plugin.tar.gz
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/install-plugin/
 
 set -euo pipefail
 

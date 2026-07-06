@@ -3,6 +3,7 @@
 # Description: List mail aliases for a domain or all domains
 # skills.sh: virtualmin, aliases, mail, hosting
 # Usage: sudo bash list-aliases.sh --domain example.com [--name-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-aliases/
 
 set -euo pipefail
 

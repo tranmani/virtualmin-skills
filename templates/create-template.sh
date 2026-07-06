@@ -3,6 +3,7 @@
 # Description: Create a new server template for use when creating domains
 # skills.sh: virtualmin, templates, hosting
 # Usage: sudo bash create-template.sh --name mytemplate --desc "Standard template"
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-template/
 
 set -euo pipefail
 

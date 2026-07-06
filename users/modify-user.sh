@@ -3,6 +3,7 @@
 # Description: Modify a mail, FTP or database user for a Virtualmin domain
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash modify-user.sh --domain example.com --user john [--pass newpass] [--quota 500] [--disable]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-user/
 
 set -euo pipefail
 

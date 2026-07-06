@@ -3,6 +3,7 @@
 # Description: Send an email message to a virtual server owner via Virtualmin
 # skills.sh: virtualmin, other, mail, hosting
 # Usage: sudo bash send-email.sh --domain example.com --subject "Notice" --msg "Your account..."
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/send-email/
 
 set -euo pipefail
 

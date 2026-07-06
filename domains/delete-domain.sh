@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash delete-domain.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-domain/
 
 set -euo pipefail
 

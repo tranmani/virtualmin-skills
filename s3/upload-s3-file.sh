@@ -3,6 +3,7 @@
 # Description: Upload a file to an Amazon S3 bucket
 # skills.sh: virtualmin, s3, hosting
 # Usage: sudo bash upload-s3-file.sh --account myaccount --bucket mybucket --file /path/to/file.tar.gz
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/upload-s3-file/
 
 set -euo pipefail
 

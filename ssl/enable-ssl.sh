@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, ssl, letsencrypt, hosting
 # Usage: sudo bash enable-ssl.sh --domain example.com --email admin@example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/enable-ssl/
 
 set -euo pipefail
 

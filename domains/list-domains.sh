@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash list-domains.sh [--name-only] [--user USER]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-domains/
 
 set -euo pipefail
 

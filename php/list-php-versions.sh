@@ -3,6 +3,7 @@
 # Description: List PHP versions available on this Virtualmin system
 # skills.sh: virtualmin, php, hosting
 # Usage: sudo bash list-php-versions.sh [--domain example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-php-versions/
 
 set -euo pipefail
 

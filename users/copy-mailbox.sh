@@ -3,6 +3,7 @@
 # Description: Copy emails from one mailbox to another
 # skills.sh: virtualmin, users, mail, hosting
 # Usage: sudo bash copy-mailbox.sh --domain example.com --user john --dest-domain example.com --dest-user jane
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/copy-mailbox/
 
 set -euo pipefail
 

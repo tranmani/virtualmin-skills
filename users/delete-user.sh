@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash delete-user.sh --domain example.com --user john
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-user/
 
 set -euo pipefail
 

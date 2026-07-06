@@ -3,6 +3,7 @@
 # Description: Delete a Rackspace Cloud Files container and all its files
 # skills.sh: virtualmin, rackspace, hosting
 # Usage: sudo bash delete-rs-container.sh --account myaccount --container mycontainer
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-rs-container/
 
 set -euo pipefail
 

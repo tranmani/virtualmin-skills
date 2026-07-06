@@ -3,6 +3,7 @@
 # Description: List all databases for a Virtualmin domain
 # skills.sh: virtualmin, database, hosting
 # Usage: sudo bash list-databases.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-databases/
 
 set -euo pipefail
 

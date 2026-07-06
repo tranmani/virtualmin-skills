@@ -3,6 +3,7 @@
 # Description: Change the owner (reseller) of a virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash move-domain.sh --domain example.com --newuser newowner
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/move-domain/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Enable, disable, or configure DKIM signing for a domain
 # skills.sh: virtualmin, dns, mail, hosting
 # Usage: sudo bash set-dkim.sh --domain example.com --enable
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/set-dkim/
 
 set -euo pipefail
 

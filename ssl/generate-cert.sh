@@ -3,6 +3,7 @@
 # Description: Generate a self-signed certificate or CSR for a domain
 # skills.sh: virtualmin, ssl, hosting
 # Usage: sudo bash generate-cert.sh --domain example.com --self --o "My Company" --c US
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/generate-cert/
 
 set -euo pipefail
 

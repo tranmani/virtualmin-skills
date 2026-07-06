@@ -3,6 +3,7 @@
 # Description: Delete an extra administrator from a virtual server
 # skills.sh: virtualmin, admins, hosting
 # Usage: sudo bash delete-admin.sh --domain example.com --name admin2
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-admin/
 
 set -euo pipefail
 

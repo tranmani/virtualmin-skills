@@ -3,6 +3,7 @@
 # Description: Define a new custom field for virtual servers
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash create-custom-field.sh --name "Customer ID" --type text
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-custom-field/
 
 set -euo pipefail
 

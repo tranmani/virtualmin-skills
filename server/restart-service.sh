@@ -3,6 +3,7 @@
 # Description: Restart a service managed by Virtualmin (apache, mysql, postfix, dovecot, bind, proftpd)
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash restart-service.sh --service apache
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/restart-service/
 
 set -euo pipefail
 

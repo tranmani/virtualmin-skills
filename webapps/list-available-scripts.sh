@@ -3,6 +3,7 @@
 # Description: List all web app scripts available for installation via Virtualmin
 # skills.sh: virtualmin, webapps, hosting
 # Usage: sudo bash list-available-scripts.sh [--type wordpress]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-available-scripts/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Configure SpamAssassin spam filtering settings for a domain
 # skills.sh: virtualmin, mail, hosting
 # Usage: sudo bash set-spam.sh --domain example.com --enable --level 5
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/set-spam/
 
 set -euo pipefail
 

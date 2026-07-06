@@ -3,6 +3,7 @@
 # Description: Remove a per-directory PHP version override for a domain
 # skills.sh: virtualmin, php, hosting
 # Usage: sudo bash delete-php-directory.sh --domain example.com --dir /home/example/public_html/app
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-php-directory/
 
 set -euo pipefail
 

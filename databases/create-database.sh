@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, database, mysql, hosting
 # Usage: sudo bash create-database.sh --domain example.com --name mydb
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-database/
 
 set -euo pipefail
 

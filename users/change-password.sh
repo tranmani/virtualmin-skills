@@ -3,6 +3,7 @@
 # Description: Change the password of a Virtualmin domain owner or mail user
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash change-password.sh --user john --pass newpassword
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/change-password/
 
 set -euo pipefail
 

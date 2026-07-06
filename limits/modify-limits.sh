@@ -3,6 +3,7 @@
 # Description: Set resource and feature limits for a virtual server owner
 # skills.sh: virtualmin, limits, hosting
 # Usage: sudo bash modify-limits.sh --domain example.com --max-mailboxes 20 --max-dbs 5
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-limits/
 
 set -euo pipefail
 

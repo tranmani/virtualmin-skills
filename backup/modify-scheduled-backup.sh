@@ -3,6 +3,7 @@
 # Description: Change attributes of an existing scheduled backup job
 # skills.sh: virtualmin, backup, hosting
 # Usage: sudo bash modify-scheduled-backup.sh --id <id> --dest <path> [--sched "0 2 * * *"]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-scheduled-backup/
 
 set -euo pipefail
 

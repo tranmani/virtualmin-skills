@@ -3,6 +3,7 @@
 # Description: Request a Let's Encrypt SSL certificate for a domain
 # skills.sh: virtualmin, ssl, letsencrypt, hosting
 # Usage: sudo bash generate-letsencrypt-cert.sh --domain example.com [--renew] [--host www.example.com]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/generate-letsencrypt-cert/
 
 set -euo pipefail
 

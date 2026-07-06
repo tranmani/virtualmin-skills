@@ -3,6 +3,7 @@
 # Description: List web redirects and aliases configured for a domain
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash list-redirects.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-redirects/
 
 set -euo pipefail
 

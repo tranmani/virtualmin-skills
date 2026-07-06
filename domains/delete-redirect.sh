@@ -3,6 +3,7 @@
 # Description: Remove a web redirect or alias from a domain
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash delete-redirect.sh --domain example.com --path /old
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-redirect/
 
 set -euo pipefail
 

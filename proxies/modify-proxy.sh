@@ -3,6 +3,7 @@
 # Description: Update a proxy path configuration on a virtual server
 # skills.sh: virtualmin, proxies, hosting
 # Usage: sudo bash modify-proxy.sh --domain example.com --path /app --url http://127.0.0.1:9000
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-proxy/
 
 set -euo pipefail
 

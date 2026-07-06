@@ -3,6 +3,7 @@
 # Description: Change the MySQL or PostgreSQL login for a domain user
 # skills.sh: virtualmin, users, database, hosting
 # Usage: sudo bash modify-database-user.sh --domain example.com --user john --pass newpass
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-database-user/
 
 set -euo pipefail
 

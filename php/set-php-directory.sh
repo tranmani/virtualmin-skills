@@ -3,6 +3,7 @@
 # Description: Set the PHP version to use for a specific directory in a domain
 # skills.sh: virtualmin, php, hosting
 # Usage: sudo bash set-php-directory.sh --domain example.com --dir /home/example/public_html/app --version 8.1
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/set-php-directory/
 
 set -euo pipefail
 

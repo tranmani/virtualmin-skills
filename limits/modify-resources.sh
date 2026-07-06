@@ -3,6 +3,7 @@
 # Description: Change server resource allocations (CPU, memory, processes) for a domain
 # skills.sh: virtualmin, limits, hosting
 # Usage: sudo bash modify-resources.sh --domain example.com --procs 50
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-resources/
 
 set -euo pipefail
 

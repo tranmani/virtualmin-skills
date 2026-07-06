@@ -3,6 +3,7 @@
 # Description: Enable a specific resource limit for a virtual server
 # skills.sh: virtualmin, limits, hosting
 # Usage: sudo bash enable-limit.sh --domain example.com --limit mailboxes --value 20
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/enable-limit/
 
 set -euo pipefail
 

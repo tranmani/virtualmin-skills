@@ -3,6 +3,7 @@
 # Description: Add a cron job for a virtual server's Unix user
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash create-cron-job.sh --domain example.com --schedule "0 2 * * *" --command "/usr/bin/wp cron event run"
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-cron-job/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: List features (Apache, DNS, mail, etc.) enabled or available in Virtualmin
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash list-features.sh [--enabled-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-features/
 
 set -euo pipefail
 

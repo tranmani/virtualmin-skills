@@ -3,6 +3,7 @@
 # Description: Create a new Rackspace Cloud Files container
 # skills.sh: virtualmin, rackspace, backup, hosting
 # Usage: sudo bash create-rs-container.sh --account myaccount --container mycontainer
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-rs-container/
 
 set -euo pipefail
 

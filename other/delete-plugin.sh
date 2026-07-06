@@ -3,6 +3,7 @@
 # Description: Remove an installed Virtualmin plugin
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash delete-plugin.sh --name myplugin
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-plugin/
 
 set -euo pipefail
 

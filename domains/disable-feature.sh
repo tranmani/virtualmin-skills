@@ -3,6 +3,7 @@
 # Description: Turn off a feature (web, mail, dns, mysql, ssl, etc.) for a virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash disable-feature.sh --domain example.com --feature ftp
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/disable-feature/
 
 set -euo pipefail
 

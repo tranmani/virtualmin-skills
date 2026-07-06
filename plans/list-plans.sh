@@ -3,6 +3,7 @@
 # Description: List all available account plans in Virtualmin
 # skills.sh: virtualmin, plans, hosting
 # Usage: sudo bash list-plans.sh [--name-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-plans/
 
 set -euo pipefail
 

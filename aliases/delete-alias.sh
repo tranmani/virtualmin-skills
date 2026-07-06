@@ -3,6 +3,7 @@
 # Description: Delete a mail alias from a domain (use "*" for catch-all)
 # skills.sh: virtualmin, aliases, mail, hosting
 # Usage: sudo bash delete-alias.sh --domain example.com --from sales
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-alias/
 
 set -euo pipefail
 

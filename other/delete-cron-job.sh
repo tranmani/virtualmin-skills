@@ -3,6 +3,7 @@
 # Description: Remove a cron job from a virtual server's Unix user
 # skills.sh: virtualmin, other, hosting
 # Usage: sudo bash delete-cron-job.sh --domain example.com --id 3
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-cron-job/
 
 set -euo pipefail
 

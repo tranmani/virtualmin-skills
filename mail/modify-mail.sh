@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, mail, hosting
 # Usage: sudo bash modify-mail.sh --domain example.com --spam yes|no --virus yes|no
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-mail/
 
 set -euo pipefail
 

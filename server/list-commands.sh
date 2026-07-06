@@ -3,6 +3,7 @@
 # Description: List all virtualmin CLI API commands available on this server
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash list-commands.sh [--name-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-commands/
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@
 # Description: Add a proxy or load-balancer path to a virtual server
 # skills.sh: virtualmin, proxies, hosting
 # Usage: sudo bash create-proxy.sh --domain example.com --path /app --url http://127.0.0.1:8080
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-proxy/
 
 set -euo pipefail
 

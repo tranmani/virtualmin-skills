@@ -3,6 +3,7 @@
 # Description: Create a user with access to a password-protected directory
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash create-protected-user.sh --domain example.com --user john --pass secret --dir /private
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-protected-user/
 
 set -euo pipefail
 

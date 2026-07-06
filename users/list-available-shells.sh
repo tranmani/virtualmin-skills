@@ -3,6 +3,7 @@
 # Description: List Unix shells available for mail and FTP users
 # skills.sh: virtualmin, users, hosting
 # Usage: sudo bash list-available-shells.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-available-shells/
 
 set -euo pipefail
 

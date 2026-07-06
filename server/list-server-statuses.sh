@@ -3,6 +3,7 @@
 # Description: List the running status of all system services monitored by Virtualmin
 # skills.sh: virtualmin, server, hosting
 # Usage: sudo bash list-server-statuses.sh [--name-only]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-server-statuses/
 
 set -euo pipefail
 

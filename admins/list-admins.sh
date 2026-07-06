@@ -3,6 +3,7 @@
 # Description: List extra administrators for a virtual server
 # skills.sh: virtualmin, admins, hosting
 # Usage: sudo bash list-admins.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-admins/
 
 set -euo pipefail
 

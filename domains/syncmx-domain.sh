@@ -3,6 +3,7 @@
 # Description: Update allowed relay MX addresses for one or more domains
 # skills.sh: virtualmin, domains, mail, hosting
 # Usage: sudo bash syncmx-domain.sh [--domain example.com | --all-domains]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/syncmx-domain/
 
 set -euo pipefail
 

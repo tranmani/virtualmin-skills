@@ -3,6 +3,7 @@
 # Description: Create a new account plan defining resource limits for virtual servers
 # skills.sh: virtualmin, plans, hosting
 # Usage: sudo bash create-plan.sh --name "Basic Plan" --max-mailboxes 10 --max-dbs 5
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/create-plan/
 
 set -euo pipefail
 

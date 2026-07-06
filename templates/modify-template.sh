@@ -3,6 +3,7 @@
 # Description: Change one or more settings in a virtual server template
 # skills.sh: virtualmin, templates, hosting
 # Usage: sudo bash modify-template.sh --name mytemplate --set quota --value 5000
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-template/
 
 set -euo pipefail
 

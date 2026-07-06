@@ -3,6 +3,7 @@
 # Description: Delete a single file from an Amazon S3 bucket
 # skills.sh: virtualmin, s3, hosting
 # Usage: sudo bash delete-s3-file.sh --account myaccount --bucket mybucket --file oldbackup.tar.gz
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/delete-s3-file/
 
 set -euo pipefail
 

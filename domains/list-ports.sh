@@ -3,6 +3,7 @@
 # Description: List TCP ports associated with a virtual server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash list-ports.sh --domain example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/list-ports/
 
 set -euo pipefail
 

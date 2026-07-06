@@ -3,6 +3,7 @@
 # Description: Change which hosts are allowed to connect to a domain's MySQL databases
 # skills.sh: virtualmin, databases, hosting
 # Usage: sudo bash modify-database-hosts.sh --domain example.com --host 192.168.1.%
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/modify-database-hosts/
 
 set -euo pipefail
 

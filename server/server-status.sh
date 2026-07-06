@@ -4,6 +4,7 @@
 # Author: tranmani
 # skills.sh: virtualmin, server, monitoring, hosting
 # Usage: sudo bash server-status.sh [--restart <service>]
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/server-status/
 
 set -euo pipefail
 

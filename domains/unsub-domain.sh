@@ -3,6 +3,7 @@
 # Description: Convert a sub-domain into a top-level sub-server
 # skills.sh: virtualmin, domains, hosting
 # Usage: sudo bash unsub-domain.sh --domain sub.example.com
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/unsub-domain/
 
 set -euo pipefail
 

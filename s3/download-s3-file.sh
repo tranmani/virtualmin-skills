@@ -3,6 +3,7 @@
 # Description: Download a file from an Amazon S3 bucket
 # skills.sh: virtualmin, s3, hosting
 # Usage: sudo bash download-s3-file.sh --account myaccount --bucket mybucket --file backup.tar.gz --dest /tmp/
+# Docs:  https://www.virtualmin.com/docs/development/api-programs/download-s3-file/
 
 set -euo pipefail
 
