@@ -4,6 +4,14 @@ A complete collection of AI agent skills and shell scripts for managing [Virtual
 
 ## Install
 
+Install all 14 skills at once (no interactive prompt):
+
+```bash
+npx skills add tranmani/virtualmin-skills --yes
+```
+
+Or pick specific skills interactively:
+
 ```bash
 npx skills add tranmani/virtualmin-skills
 ```
