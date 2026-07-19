@@ -29,6 +29,7 @@ data, while the apex serves the replacement site.
 | `add-web-alias.py` | Add `ServerAlias wp.<domain>` to the Virtualmin Apache vhost (:80 + :443) |
 | `add-host-noindex.py` | Send `X-Robots-Tag: noindex` for that host only |
 | `wp-legacy-host.py` | Make WordPress answer on the new host without editing its database |
+| `add-host-basicauth.py` | Put HTTP Basic Auth on that host only |
 
 All four are idempotent, take a timestamped `.bak-*` backup, and validate
 (`apache2ctl configtest` / `php -l`) before leaving a change in place —
@@ -42,6 +43,12 @@ sudo python3 scripts/add-web-alias.py example.com
 sudo python3 scripts/add-host-noindex.py example.com     # after the alias
 sudo systemctl reload apache2
 sudo python3 scripts/wp-legacy-host.py example.com /home/example.com/public_html
+
+# optional but recommended if the legacy app is exposed:
+sudo htpasswd -cbB /etc/apache2/wp-legacy.htpasswd USER 'PASSWORD'
+sudo chown root:www-data /etc/apache2/wp-legacy.htpasswd && sudo chmod 640 /etc/apache2/wp-legacy.htpasswd
+sudo python3 scripts/add-host-basicauth.py example.com /etc/apache2/wp-legacy.htpasswd
+sudo systemctl reload apache2
 ```
 
 ## Gotchas Learned the Hard Way
@@ -66,5 +73,14 @@ sudo python3 scripts/wp-legacy-host.py example.com /home/example.com/public_html
 - **Test the origin against its real IP**, not `127.0.0.1` — the vhosts bind to the
   public IP, so a loopback request falls through to the Apache default vhost and
   looks like a failure.
+- **Patch EVERY VirtualHost block, not just the first.** Virtualmin writes one
+  block for `:80` and another for `:443`. A script using `re.search` instead of
+  `re.sub` silently protects only `:80` — and since Cloudflare talks to the origin
+  over HTTPS in `full` mode, that leaves the port carrying all real traffic wide
+  open while the config *looks* correct. `add-host-basicauth.py` counts blocks up
+  front and refuses to write if it cannot patch all of them.
+- **Purge the cache again after adding auth.** Pages cached while the host was
+  still open keep being served with a 200 to anonymous visitors; the lock only
+  appears complete once `cf-cache-status` reads `BYPASS`.
 - Consider Basic Auth on the legacy host if the old app is unpatched; these
   domains attract constant `xmlrpc.php` / `wp-login.php` bot traffic.
